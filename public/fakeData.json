@@ -1,0 +1,38 @@
+[
+    {
+      "key": 1,
+      "name": "Laboratory Analysis",
+      "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/6-1.jpg",
+      "description": "Laboratory analysis means a test performed by a labo- ratory on body fluid, tissue, or excretion for the purpose of determining the presence, absence, or concentration of various substances in the human body."
+    },
+    {
+      "key": 2,
+      "name": "Pediatric Clinic",
+      "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/7-1.jpg",
+      "description": "Paediatrics is the area of medicine that manages medical conditions affecting infants, children and young people."
+    },
+    {
+      "key": 3,
+      "name": "Cardiac Clinic",
+      "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/1-2.jpg",
+      "description": "The clinic staff helps you understand your current state of cardiovascular health and how you can reduce your risk of cardiovascular disease. The staff in the Cardiovascular Health Clinic works together as a multidisciplinary team to coordinate your care. The team may include: Preventive cardiologists"
+    },
+    {
+      "key": 4,
+      "name": "Outpatient Rehabilitation",
+      "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/4-1.jpg",
+      "description": "Inpatient rehabilitation generally refers to physician and therapy services you receive during a stay in a hospital. Outpatient rehabilitation refers to services you receive when you are not admitted to the hospital, such as physician services and physical, occupational, and speech therapy."
+    },
+    {
+      "key": 5,
+      "name": "Ophthalmology Clinic",
+      "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/3-1.jpg",
+      "description": "Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system. The eye, its surrounding structures and the visual system can be affected by a number of clinical conditions."
+    },
+    {
+      "key": 6,
+      "name": "Gynaecological Clinic",
+      "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/5-1.jpg",
+      "description": "Gynaecology is concerned with the well-being and health of the female reproductive organs and the ability to reproduce. It includes endocrinology, female urology and pelvic malignancy. ... In obstetrics most women, although pregnant, are otherwise fit and healthy."
+    }
+  ]

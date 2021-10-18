@@ -1,10 +1,10 @@
 import React from "react";
-const Services = () => {
+const Blogs = () => {
     return (
         <div>
-
+            <h4>blogs here</h4>
         </div>
     )
 }
 
-export default Services;
+export default Blogs;
