@@ -1,5 +1,6 @@
+
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Button, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const Service = (props) => {
     const { name, img, description } = props.service;
@@ -14,9 +15,12 @@ const Service = (props) => {
                         <Card.Text>
                             {description}
                         </Card.Text>
-                        {/* <Button variant="outline-dark" onClick={serviceButtonHandler}>See Details</Button> */}
-                        <Link to="/service details">See Details</Link>
                     </Card.Body>
+                    <Card.Footer className="border-0">
+                    <Button>
+                        <Link to="/service details"  className="text-light text-decoration-none">See Details</Link>
+                        </Button>
+                    </Card.Footer>
                 </Card>
             </Col>
         </div>

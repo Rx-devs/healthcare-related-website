@@ -1,5 +1,11 @@
 .link{
     text-decoration: none;
     color: #fff;
-    margin: 0 10px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.link:hover{
+    background-color: #0d6efd;
+    color: #fff;
 }

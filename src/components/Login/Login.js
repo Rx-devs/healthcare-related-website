@@ -22,11 +22,10 @@ const Login = () => {
             })
     }
     return (
-        <div className="d-flex justify-content-center vh-100">
+        <div className="d-flex justify-content-center align-items-center vh-100">
             <div className="form">
-                <Form className=" mb-3">
-                
-                    <h2 className="text-center">Login</h2>
+                <Form className="mb-3">
+                    <h2 className="text-center mb-3">Login</h2>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         {/* <Form.Label>Email address</Form.Label> */}
                         <Form.Control type="email" placeholder="Enter Your Email" />
@@ -48,7 +47,7 @@ const Login = () => {
                     <span className="ms-2">Login with Google</span>
                 </Button>
                 <div className="text-center mb-3">
-                    <Link to="/register" className="text-decoration-none me-2">Create an New Account</Link> <span>To explore more.</span>
+                    <Link to="/register" className="text-decoration-none me-2 fw-bold">Create an New Account</Link> <span>To explore more.</span>
                 </div>
 
             </div>

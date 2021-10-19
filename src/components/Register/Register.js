@@ -22,9 +22,9 @@ const Register = () => {
             })
     }
     return (
-        <div className="d-flex justify-content-center vh-100">
+        <div className="d-flex justify-content-center align-items-center vh-100">
             <div className="form">
-                <h3 className="text-center">Register</h3>
+                <h3 className="text-center mb-3">Register Now</h3>
                 <Form className="mb-3">
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         {/* <Form.Label>Email address</Form.Label> */}
@@ -55,7 +55,7 @@ const Register = () => {
                 </Button>
                 <div className="text-center mb-3">
                     <span>Already Registered?</span>
-                    <Link to="/login" className="text-decoration-none ms-2">Login</Link>
+                    <Link to="/login" className="text-decoration-none ms-2 fw-bold">Login</Link>
                 </div>
             </div>
         </div>

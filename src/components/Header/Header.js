@@ -8,12 +8,14 @@ const Header = () => {
     const {user, logOut } = useAuth();
     return (
         <div>
-            <Navbar className="py-3" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>Health Care Pvt. Clinic</Navbar.Brand>
+                    <Navbar.Brand>
+                        <NavLink className="text-light text-decoration-none" to='/'>Health Care Pvt. Clinic</NavLink>
+                        </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav className="m-auto">
                             <NavLink className="link" to="/home">Home</NavLink>
                             <NavLink className="link" to="/blogs">Blogs</NavLink>
                             <NavLink className="link" to="/contacts">Contacts</NavLink>
