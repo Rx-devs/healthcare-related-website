@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Blog from "../Blog/Blog";
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -11,6 +11,7 @@ const Blogs = () => {
     },[])
     return (
         <div>
+            <Container className="py-4">
             <h2 className="text-center mb-3">Our Blogs</h2>
             <Row xs={1} md={2} className="g-4">
                 {
@@ -20,6 +21,7 @@ const Blogs = () => {
                     ></Blog>)
                 }
             </Row>
+            </Container>
         </div>
     );
 }
