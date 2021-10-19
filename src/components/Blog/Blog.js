@@ -1,9 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-const Service = (props) => {
-    const { name, img, description } = props.service;
-    console.log(props)
+const Blog = (props) => {
+    const { name, img, description } = props.blog;
     return (
         <div>
             <Col className="h-100">
@@ -14,13 +12,13 @@ const Service = (props) => {
                         <Card.Text>
                             {description}
                         </Card.Text>
-                        {/* <Button variant="outline-dark" onClick={serviceButtonHandler}>See Details</Button> */}
-                        <Link to="/service details">See Details</Link>
+                        {/* <Button variant="primary">Go somewhere</Button> */}
                     </Card.Body>
                 </Card>
             </Col>
+            
         </div>
     );
 }
 
-export default Service;
+export default Blog;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Row } from "react-bootstrap";
-import Service  from "../Service/Service";
+import Banner from "../Banner/Banner";
+import Service from "../Service/Service";
 const Home = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
@@ -11,9 +12,10 @@ const Home = () => {
     }, [])
     return (
         <div>
-            {/* Banner */}
-
+            {/* Slider */}
+            <Banner></Banner>
             {/* Services */}
+            <h2 className="mb-3 text-center">Our Services</h2>
             <Row xs={1} md={3} className="g-4">
                 {
                     services.map(service => <Service

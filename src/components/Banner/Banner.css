@@ -1,0 +1,23 @@
+/* .slider{
+    position: relative;
+    margin: 0 auto;
+}
+.slidingImg{
+    height: 500px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+/* .content{
+    position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+} */ 
+
+.slidingImg{
+    height: 500px;
+    object-fit: cover;
+}
