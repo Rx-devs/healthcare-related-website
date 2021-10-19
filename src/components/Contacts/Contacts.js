@@ -3,9 +3,10 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 import './Contacts.css';
 const Contacts = () => {
     return (
-        <div>
-            <Row>
-                <Col sm={6}>
+        <div className="vh-100">
+            <Row className="py-5">
+                <Col sm={12} md={6}>
+                    <div className="mx-auto w-75">
                     <h2 className="mb-3">Contact info</h2>
                     <h4>Main Campus in New York</h4>
                     <ul>
@@ -13,10 +14,11 @@ const Contacts = () => {
                         <li>medical@medicalclinic.com</li>
                         <li>1-222-3242-2242</li>
                     </ul>
+                    </div>
                 </Col>
-                <Col sm={6}>
-                    <h2 className="mb-3">Book an Appointment</h2>
-                    <Form>
+                <Col sm={12} md={6}>
+                    <h2 className="mb-3 px-5">Book an Appointment</h2>
+                    <Form  className="px-5">
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="formGridName">
                                 <Form.Control type="text" placeholder="Your Name" />
@@ -39,36 +41,8 @@ const Contacts = () => {
                             <Form.Control as="textarea" placeholder="Write Message" rows={3} />
                         </Form.Group>
 
-                        {/* <Form.Group className="mb-3" controlId="formGridAddress2">
-                    <Form.Label>Address 2</Form.Label>
-                    <Form.Control placeholder="Apartment, studio, or floor" />
-                </Form.Group>
-
-                <Row className="mb-3">
-                    <Form.Group as={Col} controlId="formGridCity">
-                        <Form.Label>City</Form.Label>
-                        <Form.Control />
-                    </Form.Group>
-
-                    <Form.Group as={Col} controlId="formGridState">
-                        <Form.Label>State</Form.Label>
-                        <Form.Select defaultValue="Choose...">
-                            <option>Choose...</option>
-                            <option>...</option>
-                        </Form.Select>
-                    </Form.Group>
-
-                    <Form.Group as={Col} controlId="formGridZip">
-                        <Form.Label>Zip</Form.Label>
-                        <Form.Control />
-                    </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" id="formGridCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group> */}
                         
-                        <Button className="" variant="outline-primary">Make an Appointment</Button>
+                        <Button variant="outline-primary">Make an Appointment</Button>
                     </Form>
                 </Col>
             </Row>

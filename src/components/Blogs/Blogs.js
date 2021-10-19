@@ -11,7 +11,7 @@ const Blogs = () => {
     },[])
     return (
         <div>
-            <h3>Our Blogs</h3>
+            <h2 className="text-center mb-3">Our Blogs</h2>
             <Row xs={1} md={2} className="g-4">
                 {
                     blogs.map(blog => <Blog
