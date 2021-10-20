@@ -3,8 +3,7 @@ import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const Service = (props) => {
-    const { name, img, description } = props.service;
-    console.log(props)
+    const { id, name, img, description } = props.service;
     return (
         <div>
             <Col className="h-100">
@@ -18,7 +17,7 @@ const Service = (props) => {
                     </Card.Body>
                     <Card.Footer className="border-0">
                     <Button>
-                        <Link to="/service details"  className="text-light text-decoration-none">See Details</Link>
+                        <Link to={`/serviceDetails/${id}`} className="text-light text-decoration-none">See Details</Link>
                         </Button>
                     </Card.Footer>
                 </Card>

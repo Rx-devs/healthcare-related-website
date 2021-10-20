@@ -1,3 +1,6 @@
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faMapMarkerAlt, faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import './Contacts.css';
@@ -7,17 +10,17 @@ const Contacts = () => {
             <Row className="py-5">
                 <Col sm={12} md={6}>
                     <div className="mx-auto w-75">
-                    <h2 className="mb-3">Contact info</h2>
+                    <h2 className="mb-4">Contact info</h2>
                     <h4>Main Campus in New York</h4>
                     <ul>
-                        <li>Brooklyn, NY 10036, United States</li>
-                        <li>medical@medicalclinic.com</li>
-                        <li>1-222-3242-2242</li>
+                        <li> <FontAwesomeIcon icon={faMapMarkerAlt}/> Brooklyn, NY 10036, United States</li>
+                        <li> <FontAwesomeIcon icon={faEnvelope}/> medical@medicalclinic.com</li>
+                        <li>  <FontAwesomeIcon icon={faPhoneSquare}/> 1-222-3242-2242</li>
                     </ul>
                     </div>
                 </Col>
                 <Col sm={12} md={6}>
-                    <h2 className="mb-3 px-5">Book an Appointment</h2>
+                    <h2 className="mb-4 px-5">Book an Appointment</h2>
                     <Form  className="px-5">
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="formGridName">

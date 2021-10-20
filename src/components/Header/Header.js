@@ -24,13 +24,13 @@ const Header = () => {
                         
                         </Nav>
                         <Nav className="d-flex align-items-center">
-                            { user.email && <span className="text-light me-3">Hi, {user.displayName}</span>}
+                            { user.email && <span className="text-light me-3">Hi {user.displayName}</span>}
                             {
                                 user.email ?
                                     <Button variant="primary" onClick={logOut}>Logout</Button>
                                     :
                                     <div>
-                                        <NavLink className="link" to="/login">Login</NavLink> 
+                                        {/* <NavLink className="link" to="/login">Login</NavLink>  */}
                                         <NavLink className="link" to="/register">Register</NavLink>
                                     </div>
                                     

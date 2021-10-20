@@ -3,36 +3,48 @@
       "key": 1,
       "name": "Laboratory Analysis",
       "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/6-1.jpg",
-      "description": "Laboratory analysis means a test performed by a labo- ratory on body fluid, tissue, or excretion for the purpose of determining the presence, absence, or concentration of various substances in the human body."
+      "description": "Laboratory analysis means a test performed by a labo- ratory on body fluid, tissue, or excretion for the purpose of determining the presence, absence, or concentration of various substances in the human body.",
+      "id":1,
+      "moreDetails":"Laboratory analysis means the measurements and tests of the characteristics of water and waste water in accordance with the methods contained in the latest edition at the time of any such measurements, tests and analysis, of “standard methods for examination of water and waste water,” a joint publication of the American public health association, the American water works association and the water pollution control federation or in accordance with any other methods prescribed by the rules of the commissioner."
     },
     {
       "key": 2,
       "name": "Pediatric Clinic",
       "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/7-1.jpg",
-      "description": "Paediatrics is the area of medicine that manages medical conditions affecting infants, children and young people."
+      "description": "Paediatrics is the area of medicine that manages medical conditions affecting infants, children and young people.",
+      "id":2,
+      "moreDetails":"Pediatricians practice the specialty of medical science concerned with the physical, emotional, and social health of children from birth to young adulthood. Pediatric care encompasses a broad spectrum of health services ranging from preventive health care to the diagnosis and treatment of acute and chronic diseases. Pediatricians understand the many factors that affect the growth and development of children. They understand that children are not simply small adults. Children change rapidly, and they must be approached with an appreciation for their stage of physical and mental development."
     },
     {
       "key": 3,
       "name": "Cardiac Clinic",
       "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/1-2.jpg",
-      "description": "The clinic staff helps you understand your current state of cardiovascular health and how you can reduce your risk of cardiovascular disease. The staff in the Cardiovascular Health Clinic works together as a multidisciplinary team to coordinate your care. The team may include: Preventive cardiologists"
+      "description": "The clinic staff helps you understand your current state of cardiovascular health and how you can reduce your risk of cardiovascular disease. The staff in the Cardiovascular Health Clinic works together as a multidisciplinary team to coordinate your care.",
+      "id":3,
+      "moreDetails":"A cardiac surgeon opens the chest and performs heart surgery. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker."
     },
     {
       "key": 4,
       "name": "Outpatient Rehabilitation",
       "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/4-1.jpg",
-      "description": "Inpatient rehabilitation generally refers to physician and therapy services you receive during a stay in a hospital. Outpatient rehabilitation refers to services you receive when you are not admitted to the hospital, such as physician services and physical, occupational, and speech therapy."
+      "description": "Inpatient rehabilitation generally refers to physician and therapy services you receive during a stay in a hospital. Outpatient rehabilitation refers to services you receive when you are not admitted to the hospital, such as physician services and physical, occupational, and speech therapy.",
+      "id":4,
+      "moreDetails":"n outpatient is a patient who receives medical care without being admitted to a hospital. Outpatient appointments may include physical therapy, often called “PT” for short. Outpatient physical therapy consists of a series of visits to a clinic in a hospital or to a stand-alone facility separate from a hospital.Physical therapy appointments are typically 30-60 minutes long and occur 1 to 5 days per week. The PT schedule is decided during the first visit, called the initial evaluation. The schedule may change over time based on patient needs.Many factors are considered when deciding the frequency and duration of care. These include: the injury or condition, how the patient improves, the type of physical therapy treatments, the patient’s schedule and availability, insurance coverage, and costs of care."
     },
     {
       "key": 5,
       "name": "Ophthalmology Clinic",
       "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/3-1.jpg",
-      "description": "Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system. The eye, its surrounding structures and the visual system can be affected by a number of clinical conditions."
+      "description": "Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system. The eye, its surrounding structures and the visual system can be affected by a number of clinical conditions.",
+      "id":5,
+      "moreDetails":"Ophthalmologists are medical doctors who specialize in the diagnosis and treatment of eye and vision problems. What is the difference between an ophthalmologist and an optometrist, then? What about opticians? These three types of eye care specialists have rather similar-sounding names and overlapping job descriptions. It can be confusing at first glance."
     },
     {
       "key": 6,
       "name": "Gynaecological Clinic",
       "img": "https://medical-clinic.cmsmasters.net/wp-content/uploads/2015/01/5-1.jpg",
-      "description": "Gynaecology is concerned with the well-being and health of the female reproductive organs and the ability to reproduce. It includes endocrinology, female urology and pelvic malignancy. ... In obstetrics most women, although pregnant, are otherwise fit and healthy."
+      "description": "Gynaecology is concerned with the well-being and health of the female reproductive organs and the ability to reproduce. It includes endocrinology, female urology and pelvic malignancy. ... In obstetrics most women, although pregnant, are otherwise fit and healthy.",
+      "id":6,
+      "moreDetails":"A gynecologist is a doctor who specializes in female reproductive health. They diagnose and treat issues related to the female reproductive tract. This includes the uterus, fallopian tubes, and ovaries and breasts.Anyone with female organs may see a gynecologist.  80% of those who see one are between 15 to 45 years old. "
     }
   ]
