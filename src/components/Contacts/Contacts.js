@@ -15,7 +15,7 @@ const Contacts = () => {
                     <ul>
                         <li> <FontAwesomeIcon icon={faMapMarkerAlt}/> Brooklyn, NY 10036, United States</li>
                         <li> <FontAwesomeIcon icon={faEnvelope}/> medical@medicalclinic.com</li>
-                        <li>  <FontAwesomeIcon icon={faPhoneSquare}/> 1-222-3242-2242</li>
+                        <li>  <FontAwesomeIcon icon={faPhoneSquare}/> +1-222-3242-2242</li>
                     </ul>
                     </div>
                 </Col>

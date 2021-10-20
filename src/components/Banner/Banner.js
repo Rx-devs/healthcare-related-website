@@ -14,7 +14,7 @@ const Banner = () => {
                         src={banner1}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className="text-dark fw-bold">
                         <p>Entrust your health our doctors</p>
                         <h3>Medical excellence every day.</h3>
                     </Carousel.Caption>
@@ -26,7 +26,7 @@ const Banner = () => {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className="text-dark fw-bold">
                         <p>Entrust your health our doctors</p>
                         <h3>The Hospital of the Future, Today</h3>
                     </Carousel.Caption>

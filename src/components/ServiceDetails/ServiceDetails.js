@@ -30,7 +30,7 @@ const ServiceDetails = () => {
                 <Card className="h-100 w-75">
                     <Card.Img variant="top" src={singleServiceDetails?.img} />
                     <Card.Body>
-                        <Card.Title>{singleServiceDetails?.name}</Card.Title>
+                        <Card.Title className="fw-bold">{singleServiceDetails?.name}</Card.Title>
                         <Card.Text>
                             {singleServiceDetails?.description}
                             {singleServiceDetails?.moreDetails}
