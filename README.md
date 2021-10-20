@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Health Care Pvt. Clinic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website Link [Health Care Pvt. Clinic](https://health-care-clinic.netlify.app/).
 
-## Available Scripts
+## About This Website
 
-In the project directory, you can run:
+* It is a Health care website.
+* Laboratory Analysis
+* Pediatric Clinic
+* Cardiac Clinic
+* Outpatient Rehabilitation
+* Ophthalmology Clinic
+* Gynaecological Clinic
+
+<!-- In the project directory, you can run:
 
 ### `yarn start`
 
@@ -67,4 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
